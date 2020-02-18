@@ -1,0 +1,40 @@
+/* Comentario */
+/* SINTAXE:
+-Elemento {propriedade:valor; 
+           propriedade: valor}
+*/
+
+
+/* Seletor de elementos */
+
+h1 {
+    color:purple; 
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;;
+}
+
+/* Seletor de id */
+#paragrafo1 {
+    color: indigo;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    background-color: pink ;
+}
+
+#paragrafo2{
+    color: midnightblue ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* Definindo configurações em grupos de paragrafos */
+
+.grupo1 {font-size: 50xp;}
+.grupo2 {color: magenta;}
+
+/* css - interno  */
