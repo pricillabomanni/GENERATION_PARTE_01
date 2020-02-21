@@ -4,3 +4,35 @@
     padding: 0;
 }
 
+header{
+        width: 800px;
+        height: 250px;
+        background-color: darkcyan;
+        float: right;
+}
+
+aside{
+    width: 400px;
+    height: 1500px;
+    background-color:aqua;
+    float: left;
+}
+
+nav{
+    width: ;
+    height: ;
+    background-color: ;
+}
+
+section{
+    width: ;
+    height: ;
+    background-color: ;
+}
+
+#box{
+        width: 1200px;
+        margin: 0 auto;
+}
+
+
