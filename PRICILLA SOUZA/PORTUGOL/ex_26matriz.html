@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+<script>
+    
+    var a=[], diago1, diago2;
+    for (var i=0; i <= 2; i++){
+        for(var j=0; j<=2; j++){
+
+            a[i,j]=parseInt(prompt("Digite um número: "));         
+         
+        }
+
+        diago1 = a[0,0] + a[1,1] + a[2,2];
+        diago2 = a[2,0] + a[1,1] + a[0,2];
+
+    }
+
+ document.write("Resultado da diagonal 1: " + diago1 + " e " + "da diagonal 2: " + diago2);
+
+</script>

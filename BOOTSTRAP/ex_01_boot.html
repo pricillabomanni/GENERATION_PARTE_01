@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generation ex_01_boot</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- FIM DO BOOTSTRAP -->
+
+    <!-- meu css -->
+
+    <style>
+        .card-text {
+            text-align: justify;
+        }
+
+        .card {
+            text-align: center;
+        }
+
+        .carousel {
+            width: 100%;
+            height: 100%;
+        }
+
+        .jumbotron {
+            background-color: orange;
+        }
+       
+        /* media queries */
+        @media (max-width: 500px;)
+        {
+            .carousel {
+            width: 100%;
+        }
+        
+
+
+    </style>
+
+    <!-- fim do meu css -->
+
+
+</head>
+
+
+<body>
+    <div class="container">
+    <!-- USANDO O RESPONSIVIDADE -->
+
+    
+
+        <!-- INICIO BOTÕES -->
+        <button>Clique aqui!</button>
+        <br><br>
+
+        <button class="btn btn-primary">Clique aqui!</button>
+        <br><br>
+
+        <button class="btn btn-outline-success">Clique aqui!</button>
+        <br><br>
+
+        <!-- btn-lg é para deixar o botão tamanho grande -->
+        <button class="btn btn-outline-success btn-lg">Clique aqui!</button>
+        <br><br>
+
+        <!-- btn-sm é para deixar o botão tamanho pequeno -->
+        <button class="btn btn-outline-light btn-sm">Clique aqui!</button>
+        <br><br>
+
+        <!-- btn-block é para deixar a barra do botão de uma ponta a outra na tela-->
+        <button class="btn btn-outline-success btn-block">Clique aqui!</button>
+        <br><br>
+
+        <!-- toggle significa ligar/desligar -->
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="option1"> outros
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option2" checked> Femenino
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option3"> Masculino
+            </label>
+        </div>
+        <br><br>
+        <!-- FIM BOTÕES -->
+
+
+
+        <!-- INICIO CARD -->
+
+        <div class="card" style="width: 18rem;">
+            <img src="../BOOTSTRAP/assets/img/CatAndDog.jpg" class="card-img-top"
+                alt="imagem de filhotes de um gato com um cachorro">
+            <div class="card-body">
+                <h5 class="card-title">Cat and Dog</h5>
+                <p class="card-text">
+                    Os animais são amorosos, companheiros, inocentes, fofinhos, devem ser respeitados sempre.
+                    Respeite-os!
+                </p>
+                <a href="https://www.amigonaosecompra.com.br/" class="btn btn-primary" target="_blan">Saiba mais</a>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary">Left</button>
+            <button type="button" class="btn btn-secondary">Middle</button>
+            <button type="button" class="btn btn-secondary">Right</button>
+        </div>
+
+        <!-- FIM DO CARD -->
+
+        <!-- INICIO CARROSEL -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="500">
+                    <a href="https://www.ead.senac.br/cursos-livres/"><img src="../BOOTSTRAP/assets/img/01.jpg"
+                            class="d-block w-100" alt="..."></a>
+                </div>
+                <div class="carousel-item" data-interval="500">
+                    <img src="../BOOTSTRAP/assets/img/02.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="500">
+                    <img src="../BOOTSTRAP/assets/img/03.jpg" class="d-block w-100" alt="...">
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- FIM DO CARROSEL -->
+        <br><br>
+
+        <!-- INICIO DROPDOWN -->
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+
+        <!-- FIM DO DROPDOWN -->
+        <br><br>
+
+        <!-- INICIO FORMS -->
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    nome="email" required autofocus>
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <!-- FIM DO FORMS -->
+
+        <br><br>
+
+       
+        <!-- INICIO JUMBOTRON -->
+        <div class="jumbotron">
+            <h1 class="display-4">Oi, eu sou o Goku!</h1>
+            <p class="lead">E no episodio de hoje... Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem quam adipisci possimus minus eaque, perspiciatis deserunt ad nam, aut sed rerum. Est
+                earum accusamus doloribus minima ducimus. Vero, nisi atque?</p>
+            <hr class="my-4">
+            <p>não saia deste canal Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis culpa harum at, ad
+                odit odio aliquid minus, eius recusandae corporis molestias consequatur, velit voluptates veniam
+                exercitationem in? Suscipit, obcaecati ea!</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+
+        <!-- FIM JUMBOTRON -->
+        <br><br>
+
+
+  
+
+
+    <!-- BOOTSTRAP JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Fim do BOOTSTRAP JavaScript -->
+
+</div>
+</body>
+</html>
