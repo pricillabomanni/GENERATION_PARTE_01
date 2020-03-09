@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+        width: 500px;
+        height: 50px;
+        color: rgb(140, 79, 243);
+        margin-left: 32%;
+        margin-top: 10%;
+}
+
+nav{
+    width: 370px;
+    height: 100px;
+    color: rgb(140, 79, 243);
+    text-align: justify;
+    margin-left: 0%;
+    
+
+}
+
+
+section{
+        width: 200px;
+        height: 500px;
+        color: rgb(140, 79, 243);
+        float: left;
+        margin-top: 08%;
+        margin-left: 0%;
+        margin-right: 05%;
+}
+
+img{
+    width: 100%;
+}
+
+@media{ max-width: 500px;
+}
+
+
+
+.text{
+        text-align: justify;
+        color:black;
+
+}
+
+.tartaruga{
+            width: 150px;
+            height: 150px;
+            float: right;
+            margin-left: 40%;
+            margin-right: 05%;
+}
+
+#box{
+        width: 800px;
+        margin: 0 auto;
+
+}

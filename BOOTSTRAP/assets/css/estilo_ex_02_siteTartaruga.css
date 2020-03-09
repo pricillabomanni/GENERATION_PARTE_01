@@ -1,7 +1,5 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;  
 }
 
 header{
@@ -10,16 +8,14 @@ header{
         color: rgb(140, 79, 243);
         margin-left: 32%;
         margin-top: 10%;
+        padding: 20px;
 }
 
-nav{
+#jj{
     width: 370px;
     height: 100px;
     color: rgb(140, 79, 243);
-    text-align: justify;
-    margin-left: 0%;
-    
-
+    text-align: justify;   
 }
 
 
@@ -28,23 +24,18 @@ section{
         height: 500px;
         color: rgb(140, 79, 243);
         float: left;
-        margin-top: 08%;
-        margin-left: 0%;
         margin-right: 05%;
+        margin-top: 06%;
 }
 
 img{
     width: 100%;
 }
 
-@media{ max-width: 500px;
-}
-
-
-
-.text{
+p{
         text-align: justify;
         color:black;
+        font-family: Arial, Helvetica, sans-serif
 
 }
 
@@ -52,12 +43,54 @@ img{
             width: 150px;
             height: 150px;
             float: right;
-            margin-left: 40%;
-            margin-right: 05%;
+            margin-left: 5%;
+            margin-right: 20%;
 }
+
 
 #box{
         width: 800px;
         margin: 0 auto;
+}
 
+
+@media (max-width: 600px){
+        #fundo{
+                background-color: rgb(71, 71, 90)
+        }
+
+        h4, h5{
+                color: white;
+        }
+
+        #box{
+                width: 100%;
+        }
+
+        .tartaruga{
+                display: none;
+        }
+
+        #jj{
+                width: 94%;
+                background-color: rgb(140, 79, 243);
+                margin-left: 3%;
+                height: 20%;
+        }
+        #ud{
+                width: 94%;
+                margin-left: 3%;
+                height: 20%;
+        }
+        #saas{
+                width: 94%;
+                background-color: rgb(140, 79, 243);
+                margin-left: 3%;
+                height: 20%;
+        }
+        #wd{
+                width: 94%;
+                margin-left: 3%;
+                
+        }
 }
